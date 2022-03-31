@@ -1,0 +1,51 @@
+{
+  "name": "practice",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "copy-webpack-plugin": "^6.3.2",
+    "prop-types": "^15.8.1",
+    "query-string": "^7.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "syntax-dynamic-import"
+    ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "NODE_ENV='production' webpack",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "webpack-dev-server --mode development",
+    "pro": "webpack --mode production",
+    "build-for-windows": "set NODE_ENV=production&&webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "svg-inline-loader": "^0.8.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
