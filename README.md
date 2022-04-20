@@ -1,70 +1,49 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">React Battle Github App <a href="https://incandescent-kataifi-c41d9c.netlify.app/">Live Demo</a></h1>
 
-## Available Scripts
+## this project built using modern react
 
-In the project directory, you can run:
+### Project Preview
 
-### `npm start`
+Light Mode          |  Dark Mode
+:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/2933430/53439193-c39e1f00-39be-11e9-848f-d327f0ef5f53.png) ![](https://user-images.githubusercontent.com/2933430/53439196-c39e1f00-39be-11e9-875e-6f4aea52f099.png) ![](https://user-images.githubusercontent.com/2933430/53439197-c39e1f00-39be-11e9-8d17-d303692e5dd2.png) |  ![](https://user-images.githubusercontent.com/2933430/53439194-c39e1f00-39be-11e9-8302-dcea6dae726a.png) ![](https://user-images.githubusercontent.com/2933430/53439195-c39e1f00-39be-11e9-9d10-488311266460.png) ![](https://user-images.githubusercontent.com/2933430/53439198-c39e1f00-39be-11e9-8bb8-d12687113a2e.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Info
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+to start this project `git clone [this-git-repo]`
+install all dependiencies by `npm i`
+to start this project `npm start`
+if you want to run it for production `npm run build`
+change API keys with your own this for test only not built for production cases
 
-### `npm test`
+### Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+this project github battle you can see most popular repos by their programming language also get a summary of forks ,stars, username and open issues
+you can also battle your friend by clicking on battle button top left and share the result via react routers using queries
+ __[React Battle Github App](https://incandescent-kataifi-c41d9c.netlify.app/)
 
-### `npm run build`
+### Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Home
+   - [README.md](README.md)
+   - [node\_modules](node_modules)
+   - [package\-lock.json](package-lock.json)
+   - [package.json](package.json)
+   - __public__
+     - [\_redirects](public/_redirects)
+     - [favicon.ico](public/favicon.ico)
+     - [index.html](public/index.html)
+     - [manifest.json](public/manifest.json)
+     - [robots.txt](public/robots.txt)
+   - __src__
+     - __components__
+       - [App.js](src/components/App.js)
+       - [Chats.js](src/components/Chats.js)
+       - [Login.js](src/components/Login.js)
+     - __contexts__
+       - [AuthContext.js](src/contexts/AuthContext.js)
+     - [firebase.js](src/firebase.js)
+     - [index.css](src/index.css)
+     - [index.js](src/index.js)
+   - [yarn.lock](yarn.lock)
